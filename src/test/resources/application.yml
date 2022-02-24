@@ -1,0 +1,19 @@
+micronaut:
+  server:
+    port: 7080
+  caches:
+    prices:
+      charset: 'UTF-8'
+  router:
+    versioning:
+      enabled: true
+      header:
+        enabled: true
+        names:
+          - 'X-API-VERSION'
+      default-version: 1
+
+adapter:
+  client:
+    min_api_crypto_compare:
+      base_url: https://test.com/data/price
