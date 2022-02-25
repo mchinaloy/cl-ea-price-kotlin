@@ -1,6 +1,6 @@
 # cl-ea-price-kotlin
 
-A [Chainlink](https://chain.link/) compatible [External Adapter](https://docs.chain.link/docs/external-adapters/) that supports a REST API and AWS Lambda Handler. G
+A [Chainlink](https://chain.link/) compatible [External Adapter](https://docs.chain.link/docs/external-adapters/) that supports a REST API and AWS Lambda Handler.
 
 This adapter interfaces with the [CryptoCompare](https://min-api.cryptocompare.com/data/price) data source.
 
